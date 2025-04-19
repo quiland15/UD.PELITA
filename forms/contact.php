@@ -7,9 +7,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Load PHPMailer
-require '../assets/vendor/php-email-form/PHPMailer/PHPMailer.php';
-require '../assets/vendor/php-email-form/PHPMailer/SMTP.php';
-require '../assets/vendor/php-email-form/PHPMailer/Exception.php';
+require '../assets/vendor/php-email-form/PHPMailer/src/PHPMailer.php';
+require '../assets/vendor/php-email-form/PHPMailer/src/SMTP.php';
+require '../assets/vendor/php-email-form/PHPMailer/src/Exception.php';
 
 // Ganti email penerima di sini
 $receiving_email_address = 'quiland86@gmail.com'; // Email tujuan penerima
