@@ -8,7 +8,7 @@ require '../assets/vendor/php-email-form/PHPMailer/SMTP.php';
 require '../assets/vendor/php-email-form/PHPMailer/Exception.php';
 
 // Ganti email penerima di sini
-$receiving_email_address = 'yourname@gmail.com';
+$receiving_email_address = 'quiland86@gmail.com';
 
 $mail = new PHPMailer(true);
 
@@ -17,8 +17,8 @@ try {
   $mail->isSMTP();
   $mail->Host = 'smtp.gmail.com';
   $mail->SMTPAuth = true;
-  $mail->Username = 'yourname@gmail.com'; // Email kamu
-  $mail->Password = 'app-password-kamu';  // App password dari Google
+  $mail->Username = 'quiland86@gmail.com'; // Email kamu
+  $mail->Password = 'dxmp ffyr gybp whvp';  // App password dari Google
   $mail->SMTPSecure = 'tls';
   $mail->Port = 587;
 
