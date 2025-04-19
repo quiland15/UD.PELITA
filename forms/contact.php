@@ -20,7 +20,7 @@ try {
   $mail->Username = 'quiland86@gmail.com'; // Email kamu
   $mail->Password = 'dxmpffyrgybpwhvp';  // App password dari Google
   $mail->SMTPSecure = 'tls';
-  $mail->Port = 587;
+  $mail->Port = 14167;
 
   // Data dari form
   $mail->setFrom($_POST['email'], $_POST['name']);
