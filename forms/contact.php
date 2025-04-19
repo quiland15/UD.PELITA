@@ -22,7 +22,7 @@ try {
   $mail->Host = 'smtp.gmail.com';
   $mail->SMTPAuth = true;
   $mail->Username = 'quiland86@gmail.com'; // Ganti dengan email kamu
-  $mail->Password = 'dxmpffyrgybpwhvp';  // App password dari Google
+  $mail->Password = 'mmefvrfqnmchbqai';  // App password dari Google
   $mail->SMTPSecure = 'tls';
   $mail->Port = 587; // Port SMTP untuk TLS
 
